@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Práctica KPI en Power BI - Sesion 07</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="header">
+        <a href="" class="logo"><h2>Manuel Davila</h2></a>
+        <div class="toggle">
+            <img src="assets/toggle.png" alt="">
+        </div>
+    </section>
+
+    <section class="banner">
+        <img src="assets/background.jpg" alt="" class="fitBg">
+        <div class="content">
+            <h2>Práctica KPI en Power BI - Sesion 07</h2>
+            <p>Se requiere trabajar con la tabla DataProyectos.xls y luego gestionarlo con SQL Server para enlazarlo a Power BI.</p>
+        </div>
+        <a href="#about" class="btn">Leer más</a>
+    </section>
+
+    <section class="about" id="about">
+        <div class="contentBx">
+            <h2 class="titleText">Requerimientos</h2>
+            <ol>
+                <li class="text">Considerar la tabla MetaProyectos.</li>
+                <li class="text">Identificar KPI que sean relevantes</li>
+                <li class="text">Elaborar un dashboard en POWER BI con información relevante para la toma de decisiones.</li>
+            </ol>
+            <a href="#destination" class="btn">Ver los pasos</a>
+        </div>
+
+        <div class="imgBx">
+            <img src="./assets/powerbi.jpg" class="fitBg" alt="">
+        </div>
+    </section>
+
+    
+    <section class="destination" id="destination">
+        <div class="content-title">
+            <h2 class="titleText">Los pasos realizados fueron:</h2>
+            <p class="text">Se importa la data del archivo excel descargado a la base de datos en SQL Server.</p>
+            <p class="text">Se realiza la conexión entre Power BI y SQL Server para extraer la data de la tabla.</p>
+            <p class="text">Se crea una tabla pivote que tendrá el calculo de los KPI.</p>
+            <p class="text">Se verifica y corrige las relaciones en las tablas.</p>
+            <p class="text">Se formatea campos en porcentaje y se le quita decimales a otros.</p>
+            <p class="text">Se agregan las tablas con los campos según requerimientos.</p>
+            <p class="text">Finalmente, se insertó el siguiente iframe proporcionado por la aplicación web Power BI.</p>
+        </div>
+    </section>
+
+    <section class="powerbi">
+        <iframe title="Report Section" height="520" src="https://app.powerbi.com/view?r=eyJrIjoiYzNkNGQyYTYtMTdjZi00MDE1LTljZmUtYWFiYzNjNWMyYjNkIiwidCI6IjBlMmViOGQ4LWI4YzktNGVlMy05N2UwLTA3ZjQwNTM5OGI4NSIsImMiOjR9" frameborder="0" allowfullscreen="true"></iframe>
+    </section>
+
+    <footer class="footer">
+        <h4 class="copyrightText">Manuel Dávila</h4>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/79e560cc16.js" crossorigin="anonymous"></script>
+</body>
+</html>
