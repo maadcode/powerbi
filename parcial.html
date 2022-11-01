@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parcial II - Business Intelligence and Big Data</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <section class="header">
+        <a href="" class="logo"><h2>Manuel Davila</h2></a>
+        <div class="toggle">
+            <img src="assets/toggle.png" alt="">
+        </div>
+    </section>
+
+    <section class="banner">
+        <img src="assets/background.jpg" alt="" class="fitBg">
+        <div class="content">
+            <h2>Parcial II - Business Intelligence and Big Data</h2>
+            <p>Se requiere utilizar el archivo BD_Poblacion.xls y luego gestionarlo con SQL Server para enlazarlo a Power BI.</p>
+        </div>
+        <a href="#about" class="btn">Ver resultado</a>
+    </section>
+
+    <section class="about">
+        <div class="contentBx">
+            <h2 class="titleText">Requerimientos</h2>
+            <ol>
+                <li class="text">Establecer indicadores con siguientes gráficos :
+                    <ul>
+                        <li>En base a la población total establecer un porcentaje de población urbana y rural.</li>
+                        <li>En base a la población total establecer un porcentaje de hombres y mujeres.</li>
+                        <li>En base a la población total establecer total según rangos de edad.</li>
+                        <li>En base a la población total establecer porcentaje(s) considerando los
+                            siguientes campos: 'Población sin abastecimiento adecuado de agua', 'Población
+                            en viviendas sin alumbrado eléctrico' y 'Viviendas'</li>
+                    </ul>
+                </li>
+                <li class="text">Establecer un espacio de geo-referenciación en base a la latitud y longitud por distrito
+                    <ul>
+                        <li>Mostrar los datos del centro poblado con el nro de población.</li>
+                        <li>Establecer filtros asignación para departamento, provincia y distrito.</li>
+                        <li>Establecer filtros de asignación para hombres y mujeres.</li>
+                    </ul>
+                </li>
+                <li class="text">Establecer un tablero (semáforo) con un indicador sobre la población total y la programación de población
+                    <ul>
+                        <li>Si el porcentaje de la población es menor a 500 000 mostrar el color rojo.</li>
+                        <li>Si el porcentaje de la población es igual o mayor a 500 000 y menor a 1 000 000
+                            mostrar el color amarillo.</li>
+                        <li>Si el porcentaje de la población es mayor a 1 000 000 mostrar el color verde.</li>
+                    </ul>
+                </li>
+                <li class="text">Publicar el trabajo final en un blog.</li>
+            </ol>
+        </div>
+
+        <div class="imgBx">
+            <img src="./assets/powerbi.jpg" class="fitBg" alt="">
+        </div>
+    </section>
+
+    <section class="powerbi" id="about">
+        <iframe title="Report Section" height="520" src="https://app.powerbi.com/view?r=eyJrIjoiMjYwMWJmMTUtMmE0OC00NTYzLTgyYTUtNmIxYmM5ZmRmNjljIiwidCI6IjBlMmViOGQ4LWI4YzktNGVlMy05N2UwLTA3ZjQwNTM5OGI4NSIsImMiOjR9" frameborder="0" allowfullscreen="true"></iframe>
+    </section>
+
+    <footer class="footer">
+        <h4 class="copyrightText">Manuel Dávila</h4>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/79e560cc16.js" crossorigin="anonymous"></script>
+</body>
+</html>
